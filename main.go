@@ -24,7 +24,7 @@ func main() {
 	}
 
 	flag.Usage = func() {
-		message := fmt.Sprintf("Usage: %s <function> <arg1> <arg2> ...\n", os.Args[0])
+		message := fmt.Sprintf("Usage: %s function [--arg1 value] [--arg2 value]...\n", os.Args[0])
 		message += "Functions:\n"
 		for name, desc := range functions {
 			message += fmt.Sprintf("\t%s - %s\n", name, desc)
