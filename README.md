@@ -18,8 +18,6 @@ An assignment sign (`=`) can appear between the argument name and value:
 myapp function [--arg1 = value][--arg2 = value]...
 ```
 
-
-
 Usage examples:
 
 ```
